@@ -12,6 +12,8 @@ const evenNumbers = numbers.filter((num) => num % 2 === 0);
 
 // Reduce: Sum all numbers
 const sum = numbers.reduce((acc, num) => acc + num, 0);
+const sum1 = numbers.reduce((acc, num) => acc + num, 0);
+
 
 console.log(doubledNumbers);
 console.log(evenNumbers);
