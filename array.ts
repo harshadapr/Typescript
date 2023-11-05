@@ -1,6 +1,8 @@
 // array-operations.ts
 
 const numbers: number[] = [1, 2, 3, 4, 5];
+const numbers1: number1[] = [1, 2, 3, 4, 5];
+
 
 // Map: Double each element
 const doubledNumbers = numbers.map((num) => num * 2);
