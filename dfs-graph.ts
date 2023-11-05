@@ -35,11 +35,11 @@ class Graph {
 
 const graph = new Graph();
 graph.addVertex("A");
-graph.addVertex("B");
-graph.addVertex("C");
-graph.addVertex("D");
-graph.addEdge("A", "B");
-graph.addEdge("A", "C");
+// graph.addVertex("B");
+// graph.addVertex("C");
+// graph.addVertex("D");
+// graph.addEdge("A", "B");
+// graph.addEdge("A", "C");
 graph.addEdge("B", "D");
 
 const dfsResult = graph.dfs("A");
